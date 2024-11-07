@@ -36,8 +36,8 @@ def decrypt_file(file_name):
     with open(file_name, "wb") as file:
         file.write(decrypted_data)
 
-# Example usage
+# Example usage remove the # to decrypt the file and put # to encrypt_file
 write_key()  # Generate and write a new key
 encrypt_file("example.txt")  # Encrypt the file
-decrypt_file("example.txt")  # Decrypt the file
+#decrypt_file("example.txt")  # Decrypt the file
 
